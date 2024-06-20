@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping( "/member" )
-public class memberController {
+public class MemberController {
 
 	/** 
 	 * 기능		: 회원 로그인 기능

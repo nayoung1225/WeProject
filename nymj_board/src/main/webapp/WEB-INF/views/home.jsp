@@ -3,15 +3,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>NY&MJ PROJECT</title>
+	<meta charset="UTF-8">
+	<title>HOME</title>
 </head>
 <body>
-<h1>
-	Hello world!  안녕 주임님 !
-</h1>
+<h1>Hello world!</h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+	<P> The time on the server is ${serverTime}. </P>
+	
 	<button>로그인</button>
-	<button>회원가입입니다.</button>
+	<button type="button" value="회원가입"><a href="/join">회원가입test</a></button>
+		
 </body> 
 </html>

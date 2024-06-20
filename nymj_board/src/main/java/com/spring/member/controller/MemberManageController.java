@@ -1,5 +1,5 @@
 package com.spring.member.controller;
 
-public class memberManageController {
+public class MemberManageController {
 
 }
