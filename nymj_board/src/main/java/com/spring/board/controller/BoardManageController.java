@@ -1,5 +1,5 @@
 package com.spring.board.controller;
 
-public class boardController {
+public class BoardManageController {
 
 }
