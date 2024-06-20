@@ -1,5 +1,5 @@
 package com.spring.board.domain;
 
-public class boardVO {
+public class BoardDTO {
 
 }

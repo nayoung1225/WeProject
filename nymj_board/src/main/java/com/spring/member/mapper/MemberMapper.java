@@ -1,5 +1,5 @@
 package com.spring.member.mapper;
 
-public class memberMapper {
+public class MemberMapper {
 
 }

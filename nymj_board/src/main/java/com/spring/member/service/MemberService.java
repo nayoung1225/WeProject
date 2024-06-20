@@ -1,5 +1,5 @@
 package com.spring.member.service;
 
-public class memberService {
+public class MemberService {
 
 }

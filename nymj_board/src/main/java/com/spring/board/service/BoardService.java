@@ -1,5 +1,5 @@
 package com.spring.board.service;
 
-public class boardService {
+public class BoardService {
 
 }
