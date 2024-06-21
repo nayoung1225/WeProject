@@ -37,8 +37,14 @@ public class HomeController {
 	
 	@RequestMapping(value = "/join")
 	public String join(Locale locale, Model model) {
-		logger.info("Welcome join!", locale);
+		logger.info("Welcome home! The client locale is {}.", locale);
 		
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+		
+		String formattedDate = dateFormat.format(date);
+		
+		model.addAttribute("serverTime", formattedDate );
 		return "join";
 	}
 	
