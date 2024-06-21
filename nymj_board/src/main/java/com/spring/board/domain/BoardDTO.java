@@ -93,7 +93,7 @@ public class BoardDTO {
 	}
 	
 	public void setUpdtDate(Date updtDate) {
-		this.updtDate = updtDate;
+		this.updtDate = updtDate; 
 	}
 	
 	public Date getRegDate() {
