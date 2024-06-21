@@ -2,6 +2,10 @@ package com.spring.member.domain;
 
 import java.util.Date;
 
+/**
+ * 나영 개발
+ */
+
 public class MemberVO {
  
 	private int memberSeq;		// 회원 번호
