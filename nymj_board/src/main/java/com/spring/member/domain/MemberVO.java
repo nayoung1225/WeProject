@@ -16,7 +16,7 @@ public class MemberVO {
 	private String memberPwHint;// 회원 비밀번호 힌트
 	private Date updtDate;		// 수정시간
 	private Date regDate;		// 등록시간
-	
+	 
 	public MemberVO(int memberSeq, String memberNm, String memberId, String memberNickNm, String memberPw,
 			Date memberBirth, String memberAddr, String memberPhone, String memberLevel, String memberPwHint,
 			Date updtDate, Date regDate) {
