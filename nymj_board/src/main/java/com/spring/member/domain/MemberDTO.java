@@ -16,7 +16,7 @@ public class MemberDTO {
 	private String memberPwHint;// 회원 비밀번호 힌트
 	private Date updtDate;	// 수정시간
 	private Date regDate;		// 등록시간
-
+ 
 	
 	public int getMemberSeq() {
 		return memberSeq;

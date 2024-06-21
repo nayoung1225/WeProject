@@ -3,7 +3,7 @@ package com.spring.member.domain;
 import java.util.Date;
 
 public class MemberVO {
-
+ 
 	private int memberSeq;		// 회원 번호
 	private String memberNm;	// 회원 이름
 	private String memberId;	// 회원 아이디
