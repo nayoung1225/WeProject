@@ -16,7 +16,7 @@ import com.spring.main.HomeController;
  */
 
 @Controller
-//@RequestMapping( "/member" )
+@RequestMapping( "/member" )
 public class MemberController {
 
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
@@ -26,7 +26,7 @@ public class MemberController {
 	 * @Date 	: 2024. 06. 19
 	 * @author  : 진민지	 
 	 */
-	@RequestMapping(value= "/member/login")
+	@RequestMapping(value= "/login")
 	public String loginView() {
 		
 		logger.info("login!");
