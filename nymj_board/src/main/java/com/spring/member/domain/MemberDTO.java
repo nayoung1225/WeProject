@@ -4,17 +4,26 @@ import java.util.Date;
 
 public class MemberDTO {
 	
+	private int memberSeq;		// 회원 번호
 	private String memberNm;	// 회원 이름
 	private String memberId;	// 회원 아이디
+	private String memberNickNm;// 회원 닉네임
 	private String memberPw;	// 회원 패스원드
 	private Date memberBirth;	// 회원 생년월일
 	private String memberAddr;	// 회원 주소
 	private String memberPhone;	// 회원 휴대폰번호
 	private String memberLevel; // 회원 등급 ex) 000 운영자 001 관리자 003 회원
 	private String memberPwHint;// 회원 비밀번호 힌트
-	private String updtDate;	// 수정시간
-	private String regDate;		// 등록시간
+	private Date updtDate;	// 수정시간
+	private Date regDate;		// 등록시간
 
+	
+	public int getMemberSeq() {
+		return memberSeq;
+	}
+	public void setMemberSeq(int memberSeq) {
+		this.memberSeq = memberSeq;
+	}
 	public String getMemberNm() {
 		return memberNm;
 	}
@@ -26,6 +35,12 @@ public class MemberDTO {
 	}
 	public void setMemberId(String memberId) {
 		this.memberId = memberId;
+	}
+	public String getMemberNickNm() {
+		return memberNickNm;
+	}
+	public void setMemberNickNm(String memberNickNm) {
+		this.memberNickNm = memberNickNm;
 	}
 	public String getMemberPw() {
 		return memberPw;
@@ -63,16 +78,18 @@ public class MemberDTO {
 	public void setMemberPwHint(String memberPwHint) {
 		this.memberPwHint = memberPwHint;
 	}
-	public String getUpdtDate() {
+	public Date getUpdtDate() {
 		return updtDate;
 	}
-	public void setUpdtDate(String updtDate) {
+	public void setUpdtDate(Date updtDate) {
 		this.updtDate = updtDate;
 	}
-	public String getRegDate() {
+	public Date getRegDate() {
 		return regDate;
 	}
-	public void setRegDate(String regDate) {
+	public void setRegDate(Date regDate) {
 		this.regDate = regDate;
 	}
+	
+	
 }
