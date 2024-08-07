@@ -8,5 +8,9 @@
 </head>
 <body>
 <p>여긴 제 공간입니당 - 민지 <p>
+	
+	아이디<input type="text" name="memberId" id="memberId">
+	비밀번호<input type="password" name="memberPw" id="memberPw">
+	<button type="submit">로그인</button>
 </body>
-</html>
+</html> 
