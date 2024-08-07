@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>여긴 제 공간입니당 - 민지인데요 <p>
+<p>여긴 제 공간입니당 - 민지인ㄷ데 바보안데요 <p>
 	
 	아이디<input type="text" name="memberId" id="memberId">
 	비밀번호<input type="password" name="memberPw" id="memberPw">
