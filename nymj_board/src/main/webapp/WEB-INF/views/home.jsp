@@ -11,7 +11,7 @@
 
 	<P> The time on the server is ${serverTime}. </P>
 	
-	<button type="button" value="로그인"><a href="/member/login">로그인</a></button>
+	<button type="button" value="로그인"><a href="/member/loginView">로그인</a></button>
 	<button type="button" value="회원가입"><a href="/join">회원가입</a></button>
 		
 </body> 

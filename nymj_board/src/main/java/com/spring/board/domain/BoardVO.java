@@ -2,6 +2,9 @@ package com.spring.board.domain;
 
 import java.util.Date;
 
+/**
+ * 민지 개발
+ */
 public class BoardVO {
 
 	private int boardSeq;
